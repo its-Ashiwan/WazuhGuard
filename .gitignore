@@ -1,0 +1,60 @@
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+logs/
+*.out
+
+# Wazuh related (agar local logs/export ho)
+
+wazuh-logs/
+alerts.json
+archives.json
+
+# Virtual Machine files (VERY IMPORTANT 🔥)
+
+*.vmdk
+*.vmem
+*.vmx
+*.vbox
+*.vdi
+
+# Python (agar use kiya ho)
+
+**pycache**/
+*.pyc
+*.pyo
+env/
+venv/
+
+# Node (agar kabhi use ho)
+
+node_modules/
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Sensitive files
+
+.env
+.env.*
+credentials.json
+
+# Large files (avoid uploading)
+
+*.zip
+*.tar
+*.gz
+*.iso
